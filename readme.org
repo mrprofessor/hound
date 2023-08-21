@@ -5,6 +5,27 @@
 
 Hound aspires to be the only tool you need to get all the information for a website.
 
+** Installation
+:PROPERTIES:
+:CUSTOM_ID: installation
+:END:
+
+*** Method 1
+:PROPERTIES:
+:CUSTOM_ID: method-1
+:END:
+If Go is installed on the machine
+#+begin_src shell
+  go install github.com/mrprofessor/hound@latest
+#+end_src
+
+*** Method 2
+:PROPERTIES:
+:CUSTOM_ID: method-2
+:END:
+
+Download the lastest release from [[https://github.com/mrprofessor/hound/releases][the release page.]]
+
 ** Initial basic usage
 :PROPERTIES:
 :CUSTOM_ID: initial-basic-usage
