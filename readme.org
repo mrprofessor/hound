@@ -1,0 +1,35 @@
+* Hound
+:PROPERTIES:
+:CUSTOM_ID: hound
+:END:
+
+Hound aspires to be the only tool you need to get all the information for a website.
+
+** Initial basic usage
+:PROPERTIES:
+:CUSTOM_ID: initial-basic-usage
+:END:
+
+- =hound who -url github.com=
+
+    Provides the basic whois data
+
+- =hound ssl -url github.com=
+
+    Provides the ssl certs data, such as expiration etc
+
+- =hound dns-lookup -url github.com=
+
+    Shows basic DNS records
+
+
+** TODOs
+:PROPERTIES:
+:CUSTOM_ID: todos
+:END:
+
+- Fix SSL
+- Add support for more dns records(CAA, SPF, etc.)
+- Add support for more SRV server(Currently only support xmpp)
+- Add a fast sub domain finder
+- Tests maybe?
